@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms &amp; Conditions | Raunak Weld House</title>
+<meta name="description" content="Terms and conditions for using the Raunak Weld House website.">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./index.html">
+      <img src="./assets/logo.svg" alt="Raunak Weld House logo" width="180" height="56">
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li><a href="./index.html#about">About</a></li>
+        <li><a href="./index.html#products">Products</a></li>
+        <li><a href="./index.html#contact">Contact</a></li>
+        <li><a href="./privacy.html">Privacy</a></li>
+        <li><a href="./terms.html" aria-current="page">Terms</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="legal-banner">
+  <div class="wrap">
+    <h1 id="terms-and-conditions">Terms &amp; conditions</h1>
+    <p>Raunak Weld House</p>
+  </div>
+</section>
+
+<main class="legal-body">
+
+  <h2>1. Acceptance of terms</h2>
+  <p>By accessing and using this website, you agree to comply with these Terms and Conditions.</p>
+
+  <h2>2. Use of website</h2>
+  <p>You agree to use this website only for lawful purposes and not to engage in any activity that disrupts or damages the website.</p>
+
+  <h2>3. Intellectual property</h2>
+  <p>All content, logos, text, graphics, and materials on this website are the property of the website owner unless otherwise stated.</p>
+
+  <h2>4. User content</h2>
+  <p>Any content submitted by users must not violate any laws or third party rights.</p>
+
+  <h2>5. Disclaimer</h2>
+  <p>All information on this website is provided "as is" without warranties of any kind.</p>
+
+  <h2>6. Limitation of liability</h2>
+  <p>The website owner shall not be liable for any indirect, incidental, or consequential damages arising from use of the website.</p>
+
+  <h2>7. Termination</h2>
+  <p>We reserve the right to suspend or terminate access to the website at our discretion.</p>
+
+  <h2>8. Governing law</h2>
+  <p>These Terms shall be governed by and interpreted in accordance with applicable laws in the relevant jurisdiction.</p>
+
+  <h2>9. Changes to terms</h2>
+  <p>We may modify these Terms at any time. Continued use of the website constitutes acceptance of the updated Terms.</p>
+
+  <a class="back-link" href="./index.html">Back to home</a>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="./privacy.html">Privacy policy</a></li>
+        <li><a href="./terms.html">Terms &amp; conditions</a></li>
+      </ul>
+    </nav>
+    <p class="footnote">Last updated: 2026-09-02</p>
+  </div>
+</footer>
+
+<script>
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('mainNav');
+  toggle.addEventListener('click', function () {
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+</script>
+
+</body>
+</html>
